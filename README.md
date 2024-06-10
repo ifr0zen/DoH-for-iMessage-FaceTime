@@ -1,7 +1,7 @@
 # DoH-for-iMessage-FaceTime
 DNS over HTTPS config profiles for iOS &amp; macOS
 
-本项目参考encrypted-dns https://github.com/paulmillr/encrypted-dns
+/h2本项目参考encrypted-dns https://github.com/paulmillr/encrypted-dns
 
 1.下载描述文件安装 https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
 
