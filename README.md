@@ -18,6 +18,8 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 <img width="668" alt="QQ20240610-141324@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/029e82f8-706d-4358-a0bd-239e2f89c319">
 
 2.PAC中加入规则
+
 <img width="700" alt="QQ20240610-141414@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/2fb25587-ef20-413e-b443-6e86c1adb128">
 
+3.重启Mac即可恢复iMessage多设备同步
 
