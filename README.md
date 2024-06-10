@@ -5,13 +5,19 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 1.下载描述文件安装 https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
 
-2.iOS 🚀配置--本地文件.conf--i--规则--添加 apple.com   aaplimg.com   apple-dns.net
-![IMG_3742](https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/cfbecd9e-6dad-4689-b175-583511b2c216)![IMG_3743](https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/976446a2-0347-4a9f-8f3d-04936bca4909)
+2.iOS 🚀配置--本地文件 xxx.conf【默认是default.conf】--i--规则--添加 apple.com   aaplimg.com   apple-dns.net 将激活FT和iM所需的网络请求加入规则
 
-3.重启iOS设备，🚀选择配置后打开连接
-![IMG_3744](https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/89f946b5-d961-46b3-aeaf-8087efb0a242)
+<img width="577" alt="QQ20240610-142838@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/55cc666a-40f0-49c5-8d4b-9f2875b7963c"><img width="577" alt="QQ20240610-142606@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/a97b3776-2697-4981-9603-1b80da0e03be"><img width="577" alt="QQ20240610-143252@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/cc21d0de-cc44-44aa-b4e4-94be4cbe997f">
 
-4.激活iM和FT
+3.重启iOS设备，🚀打开连接，全局路由选择配置
+
+<img width="577" alt="QQ20240610-144018@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/9ebf6988-c203-4f2a-81e7-c63eb9d2e6ae">
+
+
+4.进入设置激活iM和FT，由于第二部添加规则，激活时可以不用全局代理
+<img width="577" alt="QQ20240610-143909@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/46b2f1dc-b617-485c-bbf1-994fb9f2117b">
+
+
 
 如需多设备同步需在其他设备进行相同操作，如Mac
 1.安装描述文件
@@ -23,3 +29,4 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 3.重启Mac即可恢复iMessage多设备同步
 
+<img width="429" alt="QQ20240610-142413@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/d42939f2-0670-4660-aae6-be92198fb5f1">
