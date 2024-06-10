@@ -20,8 +20,13 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 
 
+
+
+
 如需多设备同步需在其他设备进行相同操作，如Mac
+
 1.安装描述文件
+
 <img width="668" alt="QQ20240610-141324@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/029e82f8-706d-4358-a0bd-239e2f89c319">
 
 2.PAC中加入规则
