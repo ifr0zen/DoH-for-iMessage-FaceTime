@@ -49,10 +49,15 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 <img width="668" alt="QQ20240610-141324@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/029e82f8-706d-4358-a0bd-239e2f89c319">
 <br> 
+<br> 
 2.PAC中加入规则
+
+
 <br> 
 <img width="700" alt="QQ20240610-141414@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/2fb25587-ef20-413e-b443-6e86c1adb128">
 <br> 
+<br> 
 3.重启Mac即可恢复iMessage多设备同步
+
 <br> 
 <img width="429" alt="QQ20240610-142413@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/d42939f2-0670-4660-aae6-be92198fb5f1">
