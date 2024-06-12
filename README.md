@@ -10,6 +10,8 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 通过iM激活网络抓包发现请求identity.ess.apple.com，而安徽电信湖北电信解析故障如图
 
 <img width="500" alt="合肥电信" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/4a129bf6-75b5-477f-94d4-0d1828712a12"><img width="500" alt="武汉电信" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/18aac24f-d039-4e1d-b6a8-4e680efaf41c">
+
+
 再附一个安徽联通解析，谁的问题显而易见
 
 <img width="500" alt="芜湖联通" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/55ea2ab5-f283-4b1f-aa53-ac2fd09ec7da">
