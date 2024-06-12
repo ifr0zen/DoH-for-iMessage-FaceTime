@@ -3,21 +3,49 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 本项目参考encrypted-dns https://github.com/paulmillr/encrypted-dns
 
-更新
-===
-6.12 激活后可以尝试删除DoH描述文件，实测注销iM后通过🪜同样可以再次登录
+
 
 前言
 ===
-先简单说明一下该方法的原理再顺便回答大家常问的问题。
+通过iM激活网络抓包发现请求identity.ess.apple.com，而安徽电信湖北电信解析故障如图
 
-首先，iM在激活的时候需要向🍎发送一条国际短信，再通过一些网络请求完成激活，如果有大佬知道更具体的细节可以指导一下，由于出现问题的大部分用户不是新开卡而是最近几天突然不能用的，所以国际短信业务是正常的，恰好激活iM的网络请求DNS解析是明文，猜测运营商是在这做的文章，相当于你在问路的时候运营商故意给你指了一条错误的路，所以方法中使用了DNS加密，这是iOS14的新功能DoH或者DoT，即DNS over TLS (rfc7858) 和DNS over HTTPS (rfc8484) 以描述文件的形式安装在iOS和macOS，DoH和DoT描述文件结构也比较简单，相关资料是公开的，可自行搜索🔍甚至可以自己编写安装 
+<img width="500" alt="合肥电信" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/4a129bf6-75b5-477f-94d4-0d1828712a12"><img width="500" alt="武汉电信" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/18aac24f-d039-4e1d-b6a8-4e680efaf41c">
+再附一个安徽联通解析，谁的问题显而易见
 
-除此之外将iM激活过程中的网络请求加入🪜规则中，这样确保iM的激活和使用不受运营商的干扰。
+<img width="500" alt="芜湖联通" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/55ea2ab5-f283-4b1f-aa53-ac2fd09ec7da">
 
-所以大家常问的问题，描述文件激活后可不可以删除？目前对于iM激活工作细节不太清楚，所以不建议删除，不过实测在使用中🪜断开后iM依然可以正常同步
 
-步骤
+
+
+方法一：【优先优先优先】
+===
+1.iOS 🚀App 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 **identity.ess.apple.com** 将激活FT和iM所需的网络请求加入规则
+
+<img width="200" alt="QQ20240612-202605@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b3e69214-fca1-452b-be6c-4ddf5589c57f"><img width="200" alt="QQ20240612-202628@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ac7e60f6-9dcd-4cae-a694-13b8cddddd52"><img width="200" alt="QQ20240612-202704@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/85725008-5ddf-497b-ac87-43d96fd6547c"><img width="200" alt="QQ20240612-202733@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/9604bac1-79c4-4d57-b3c3-4b4eb9248b31"><img width="200" alt="QQ20240612-202800@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/1d582bf1-765e-467f-9a1f-495e1178cbbb">
+
+
+2.重启iOS设备，🚀打开连接，由于第2步添加规则，全局路由选择“配置”
+<br> 
+<img width="200" alt="QQ20240612-202826@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/f7d076a1-3313-41a9-bf8b-79955f80a9cf">
+
+
+
+3.进入设置激活iM和FT
+<br> 
+<img width="200" alt="QQ20240612-203723@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/bc641f92-0efe-4d47-a673-44ce240571d2">
+
+<br> 
+
+4.Mac上添加规则后重启激活iM和FT
+
+<img width="500" alt="QQ20240612-204549@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/26dc1b8d-f6fe-4e6c-9f57-761ce2110ef7">
+
+
+
+
+
+
+方法二：
 ===
 1.下载描述文件安装
 
