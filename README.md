@@ -17,59 +17,42 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 
 
-方法一：【优先优先优先】
-===
-1.iOS 🚀App 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 **identity.ess.apple.com** 将激活FT和iM所需的网络请求加入规则
-
-<img width="200" alt="QQ20240612-202605@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b3e69214-fca1-452b-be6c-4ddf5589c57f"><img width="200" alt="QQ20240612-202628@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ac7e60f6-9dcd-4cae-a694-13b8cddddd52"><img width="200" alt="QQ20240612-202704@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/85725008-5ddf-497b-ac87-43d96fd6547c"><img width="200" alt="QQ20240612-202733@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/9604bac1-79c4-4d57-b3c3-4b4eb9248b31"><img width="200" alt="QQ20240612-202800@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/1d582bf1-765e-467f-9a1f-495e1178cbbb">
-
-
-2.重启iOS设备，🚀打开连接，由于第2步添加规则，全局路由选择“配置”
-<br> 
-<img width="200" alt="QQ20240612-202826@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/f7d076a1-3313-41a9-bf8b-79955f80a9cf">
-
-
-
-3.进入设置激活iM和FT
-<br> 
-<img width="200" alt="QQ20240612-203723@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/bc641f92-0efe-4d47-a673-44ce240571d2">
-
-<br> 
-
-4.Mac上添加规则后重启激活iM和FT
-
-<img width="500" alt="QQ20240612-204549@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/26dc1b8d-f6fe-4e6c-9f57-761ce2110ef7">
-
-
-
-
-
-
-方法二：
+方法：
 ===
 1.下载描述文件安装
 
 https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
 <br> 
 <br> 
-2.iOS 🚀配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 **apple.com   aaplimg.com   apple-dns.net** 将激活FT和iM所需的网络请求加入规则
+2.iOS 🚀App 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 **identity.ess.apple.com** 将激活FT和iM所需的网络请求加入规则
 <br> 
 
-<img width="220" alt="QQ20240610-142838@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/55cc666a-40f0-49c5-8d4b-9f2875b7963c"><img width="220" alt="QQ20240611-141626@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/39f530db-f6ed-403f-8de6-e7a40082780b"><img width="220" alt="QQ20240610-142606@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/a97b3776-2697-4981-9603-1b80da0e03be">
+<img width="200" alt="QQ20240612-202605@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b3e69214-fca1-452b-be6c-4ddf5589c57f"><img width="200" alt="QQ20240612-202628@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ac7e60f6-9dcd-4cae-a694-13b8cddddd52"><img width="200" alt="QQ20240612-202704@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/85725008-5ddf-497b-ac87-43d96fd6547c"><img width="200" alt="QQ20240612-202733@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/9604bac1-79c4-4d57-b3c3-4b4eb9248b31"><img width="200" alt="QQ20240612-202800@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/1d582bf1-765e-467f-9a1f-495e1178cbbb">
+
 <br> 
 <br> 
 3.重启iOS设备，🚀打开连接，由于第2步添加规则，全局路由选择“配置”
 <br> 
+<img width="200" alt="QQ20240612-202826@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/f7d076a1-3313-41a9-bf8b-79955f80a9cf">
 
-<img width="220" alt="QQ20240610-144018@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/9ebf6988-c203-4f2a-81e7-c63eb9d2e6ae">
+
+<br> 
 <br> 
 
-<br> 
+
+
 4.进入设置激活iM和FT
 <br> 
+<img width="200" alt="QQ20240612-203723@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/bc641f92-0efe-4d47-a673-44ce240571d2">
 
-<img width="220" alt="QQ20240610-143909@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/46b2f1dc-b617-485c-bbf1-994fb9f2117b">
+
 <br> 
+<br> 
+
+<br> 
+
+
+
 
 
 如需多设备同步需在其他设备进行相同操作，如Mac
@@ -79,17 +62,18 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 1.安装描述文件
 
 
-<img width="668" alt="QQ20240610-141324@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/029e82f8-706d-4358-a0bd-239e2f89c319">
+<img width="500" alt="QQ20240610-141324@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/029e82f8-706d-4358-a0bd-239e2f89c319">
 <br> 
 <br> 
 2.PAC中加入规则
 
 
 <br> 
-<img width="668" alt="QQ20240610-141414@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/2fb25587-ef20-413e-b443-6e86c1adb128">
+<img width="500" alt="QQ20240612-204549@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/26dc1b8d-f6fe-4e6c-9f57-761ce2110ef7">
+
 <br> 
 <br> 
 3.重启Mac即可恢复iMessage多设备同步
 
 <br> 
-<img width="429" alt="QQ20240610-142413@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/d42939f2-0670-4660-aae6-be92198fb5f1">
+<img width="500" alt="QQ20240610-142413@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/d42939f2-0670-4660-aae6-be92198fb5f1">
