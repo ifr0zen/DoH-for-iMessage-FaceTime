@@ -3,6 +3,10 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 本项目参考encrypted-dns https://github.com/paulmillr/encrypted-dns
 
+更新
+===
+6.12 激活后可以尝试删除DoH描述文件，实测注销iM后通过🪜同样可以再次登录
+
 前言
 ===
 先简单说明一下该方法的原理再顺便回答大家常问的问题。
