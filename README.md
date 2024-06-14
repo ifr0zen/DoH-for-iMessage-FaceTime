@@ -19,7 +19,7 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 
 
-方法：
+方法
 ===
 1.下载描述文件安装
 
@@ -79,3 +79,7 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 <br> 
 <img width="500" alt="QQ20240610-142413@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/d42939f2-0670-4660-aae6-be92198fb5f1">
+
+进阶
+===
+经过以上操作电信用户应该成功激活iM和FT，Apple设备也恢复互联互通，若想移除描述文件可参考以下方法。
