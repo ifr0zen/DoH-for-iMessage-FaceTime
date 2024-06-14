@@ -26,7 +26,15 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
 <br> 
 <br> 
-2.iOS 🚀App 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 **identity.ess.apple.com** 将激活FT和iM所需的网络请求加入规则
+2.iOS 🚀App 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 将激活FT和iM所需的网络请求加入以下规则
+
+**identity.ess.apple.com**    猜测是Apple的ESS服务下的身份验证，这个地址非常重要，关乎到iM登录和同账号下多设备互联互通
+
+**query.ess.apple.com**    猜测是Apple的ESS服务下的查询功能，网络抓包发现在请求这个地址，并且安徽电信解析异常
+
+**push.apple.com**    猜测是推送服务，安徽电信解析异常
+
+
 <br> 
 
 <img width="200" alt="QQ20240612-202605@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b3e69214-fca1-452b-be6c-4ddf5589c57f"><img width="200" alt="QQ20240612-202628@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ac7e60f6-9dcd-4cae-a694-13b8cddddd52"><img width="200" alt="QQ20240612-202704@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/85725008-5ddf-497b-ac87-43d96fd6547c"><img width="200" alt="QQ20240612-202733@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/9604bac1-79c4-4d57-b3c3-4b4eb9248b31"><img width="200" alt="QQ20240612-202800@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/1d582bf1-765e-467f-9a1f-495e1178cbbb">
@@ -83,3 +91,5 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 进阶
 ===
 经过以上操作电信用户应该成功激活iM和FT，Apple设备也恢复互联互通，若想移除描述文件可参考以下方法。
+先挖个坑吧，后面看能不能填上。
+思路是通过App特性实现DoH，但是实测效果不是特别好，收益不大。
