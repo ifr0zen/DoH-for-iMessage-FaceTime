@@ -77,7 +77,7 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 <br> 
 2.V2RayU PAC中加入规则
 
-项目地址：https://github.com/yanue/V2rayU
+项目地址：[V2rayU](https://github.com/yanue/V2rayU/releases) 
 
 
 
