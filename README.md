@@ -91,6 +91,7 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 进阶
 ===
 经过以上操作电信用户应该成功激活iM和FT，Apple设备也恢复互联互通，若想移除描述文件可参考以下方法。
+
 先挖个坑吧，后面看能不能填上。
 
 思路是通过App特性实现DoH，但是实测效果不是特别好，收益不大。
