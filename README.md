@@ -19,7 +19,7 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 资料
 ===
-iMessage激活流程，有兴趣可下载[iMessage_privacy.pdf](https://github.com/user-attachments/files/15895563/iMessage_privacy.pdf)
+pod2g(上古iOS越狱大佬)和gg关于iMessage中间人攻击报告中有介绍iMessage工作流程，感兴趣可下载[iMessage_privacy.pdf](https://github.com/user-attachments/files/15895563/iMessage_privacy.pdf)
 
 
 <img width="500" alt="QQ20240619-120924@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/2f454f92-d323-4a4f-8e87-35028a630d97"> <img width="500" alt="QQ20240619-124735@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/9971ec74-7a47-4785-8f2d-556e6b77702e">
