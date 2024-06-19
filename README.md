@@ -29,6 +29,7 @@ pod2g(上古iOS越狱大佬)和gg关于iMessage中间人攻击报告中有介绍
 
 
 
+
 方法
 ===
 1.下载描述文件安装
@@ -39,11 +40,26 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 2.iOS 打开Shadowrocket 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 参考图示将激活FT和iM所需的网络请求加入规则中
 
 
-**identity.ess.apple.com**    猜测是Apple的ESS服务下的身份验证，这个地址非常重要，关乎到iM登录和同账号下多设备互联互通
+**identity.ess.apple.com**    猜测是Apple的ESS服务下的身份验证，安徽电信解析异常，这个地址非常重要，似乎关系到iM登录和同账号下多设备互联互通
 
-**query.ess.apple.com**    猜测是Apple的ESS服务下的查询功能，网络抓包发现在请求这个地址，并且安徽电信解析异常
+**query.ess.apple.com**    猜测是Apple的ESS服务下的查询服务，网络抓包发现在请求这个地址，并且安徽电信解析异常
 
 **rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH协议，用于客户端证书验证 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com 222-courier.push.apple.com等
+<br> 
+
+
+<br> 
+
+
+
+
+
+以下是通过相关资料大致得出iMessage工作流程，个人理解仅供参考，如有错误烦请指出。
+--
+
+首先iM基于Apple的一项服务，称之为ESS Servers，该服务用于存储iMessage用户的所有公共加密密钥，并且从IP地址上看似乎位于库比提诺的Apple Park。iM登录的时候会先完成身份验证identity.ess.apple.com
+
+但用户A发送iMessage短信时并不会简单的从用户A的iPhone发送到用户B的iPhone，用户A会先向ESS Servers查询用户B的身份，此时用户A的iPhone会请求query.ess.apple.com，成功后ESS Servers向用户A返回用户B的加密密钥。有了这些信息，用户A的iPhone加密消息，将加密文本发送给Apple，然后Apple将其转发给用户B，随后用户B的iPhone可以对其进行解密显示内容，所以iMessage被称为“端到端加密”。即每次合法用户想要向新收件人发送iMessage时，都会访问Apple密钥分发系统。iMessages客户端首先联系 query.ess.apple.com 以查找给定用户名的密钥。作为响应，服务器返回用户的公钥、状态和推送令牌，用于向用户发送APNs通信。
 
 
 
