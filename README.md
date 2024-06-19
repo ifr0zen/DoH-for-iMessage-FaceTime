@@ -36,7 +36,7 @@ iMessage激活流程，有兴趣可下载[iMessage_privacy.pdf](https://github.c
 https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
 <br> 
 <br> 
-2.iOS 打开Shadowrocket 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 将激活FT和iM所需的网络请求加入以下规则
+2.iOS 打开Shadowrocket 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 参考图示将激活FT和iM所需的网络请求加入规则中
 
 
 **identity.ess.apple.com**    猜测是Apple的ESS服务下的身份验证，这个地址非常重要，关乎到iM登录和同账号下多设备互联互通
