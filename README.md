@@ -99,7 +99,7 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 <img width="500" alt="QQ20240610-141324@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/029e82f8-706d-4358-a0bd-239e2f89c319">
 <br> 
 <br> 
-2.V2RayU PAC中加入上方列出的三条规则【图片未更新】
+2.V2RayU PAC中加入上方列出的三条规则
 
 项目地址：[V2rayU](https://github.com/yanue/V2rayU/releases) 
 
@@ -109,7 +109,9 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 <img width="256" alt="QQ20240614-231657@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/e54bdad2-6ab2-4f6f-8fc2-43abc379b709">
 
-<img width="500" alt="QQ20240612-204549@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/26dc1b8d-f6fe-4e6c-9f57-761ce2110ef7">
+<img width="500" alt="QQ20240619-134939@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/098804da-193c-43c4-bb91-8df55fb4515b">
+
+
 
 <br> 
 <br> 
