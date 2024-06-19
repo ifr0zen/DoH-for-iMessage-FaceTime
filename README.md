@@ -44,7 +44,7 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 **query.ess.apple.com**    猜测是Apple的ESS服务下的查询服务，网络抓包发现在请求这个地址，并且安徽电信解析异常
 
-**rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH协议，用于客户端证书验证 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com 222-courier.push.apple.com等
+**rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH服务 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com 222-courier.push.apple.com等
 <br> 
 
 
