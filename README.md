@@ -44,7 +44,8 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 **query.ess.apple.com**    猜测是Apple的ESS服务下的查询服务，网络抓包发现在请求这个地址，并且安徽电信解析异常
 
-**rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH服务 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com 222-courier.push.apple.com等
+**rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH服务 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com 222-courier.push.apple.com等，需要注意这里的写法与前面两条不同，使用Domain-KEYWORD,即匹配域名关键词，具体请看截图内容，如果图省事与前面两条写法相同使用Domain-SUFFIX直接填push.apple.com也可以，效果相同，但会将Apple其他push服务也列入规则代理，如api.push.apple.com，所以截图写法更为精确，但列入也不一定是坏事，这个看个人选择。
+
 <br> 
 
 
