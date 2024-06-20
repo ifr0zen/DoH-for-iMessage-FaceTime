@@ -40,6 +40,17 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 2.iOS 打开Shadowrocket 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 参考图示将激活FT和iM所需的网络请求加入规则中
 
 
+<br> 
+
+
+<img width="200" alt="QQ20240619-130317@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ad60645b-39a5-4e5b-b4be-9b450c179bbe"><img width="200" alt="QQ20240612-202605@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b3e69214-fca1-452b-be6c-4ddf5589c57f"><img width="200" alt="QQ20240612-202628@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ac7e60f6-9dcd-4cae-a694-13b8cddddd52"><img width="200" alt="QQ20240612-202704@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/85725008-5ddf-497b-ac87-43d96fd6547c"><img width="200" alt="QQ20240619-130358@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/8cfa7acb-86a7-4151-8d2e-1e463199a321"><img width="200" alt="QQ20240619-130425@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/f41bfc75-8e0e-417a-80b9-68b3f8c18596"><img width="200" alt="QQ20240619-130451@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/7596e7be-5ebc-4ed4-af99-9efe4201c3ec"><img width="200" alt="QQ20240619-130302@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/02b4f6de-72db-440e-b153-32110882495d">
+
+
+
+
+
+
+
 **identity.ess.apple.com**    猜测是Apple的ESS服务下的身份验证，安徽电信解析异常，这个地址非常重要，似乎关系到iM登录和同账号下多设备互联互通
 
 **query.ess.apple.com**    猜测是Apple的ESS服务下的查询服务，网络抓包发现在请求这个地址，并且安徽电信解析异常
@@ -62,12 +73,6 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 但用户A发送iMessage短信时并不会简单的从用户A的iPhone发送到用户B的iPhone，用户A会先向ESS Servers查询用户B的身份，此时用户A的iPhone会请求query.ess.apple.com，成功后ESS Servers向用户A返回用户B的加密密钥。有了这些信息，用户A的iPhone加密消息，将加密文本发送给Apple，然后Apple将其转发给用户B，随后用户B的iPhone可以对其进行解密显示内容，所以iMessage被称为“端到端加密”。即每次合法用户想要向新收件人发送iMessage时，都会访问Apple密钥分发系统。iMessages客户端首先联系 query.ess.apple.com 以查找给定用户名的密钥。作为响应，服务器返回用户的公钥、状态和推送令牌，用于向用户发送APNs通信。
 
-
-
-<br> 
-
-
-<img width="200" alt="QQ20240619-130317@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ad60645b-39a5-4e5b-b4be-9b450c179bbe"><img width="200" alt="QQ20240612-202605@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b3e69214-fca1-452b-be6c-4ddf5589c57f"><img width="200" alt="QQ20240612-202628@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ac7e60f6-9dcd-4cae-a694-13b8cddddd52"><img width="200" alt="QQ20240612-202704@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/85725008-5ddf-497b-ac87-43d96fd6547c"><img width="200" alt="QQ20240619-130358@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/8cfa7acb-86a7-4151-8d2e-1e463199a321"><img width="200" alt="QQ20240619-130425@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/f41bfc75-8e0e-417a-80b9-68b3f8c18596"><img width="200" alt="QQ20240619-130451@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/7596e7be-5ebc-4ed4-af99-9efe4201c3ec"><img width="200" alt="QQ20240619-130302@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/02b4f6de-72db-440e-b153-32110882495d">
 
 
 
