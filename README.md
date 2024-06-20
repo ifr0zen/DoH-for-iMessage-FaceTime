@@ -37,7 +37,7 @@ pod2g(上古iOS越狱大佬)和gg关于iMessage中间人攻击报告中有介绍
 https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
 <br> 
 <br> 
-2.iOS 打开Shadowrocket 配置--本地文件 xxx.conf【默认是default.conf，选择目前使用的conf文件编辑】--i--规则--添加 参考图示将激活FT和iM所需的网络请求加入规则中
+2.iOS 打开Shadowrocket 配置--本地文件 xxx.conf【编辑当前使用的conf文件，至少是default.conf】--i--规则--添加 参考图示将激活FT和iM所需的网络请求加入规则中
 
 
 <br> 
