@@ -7,12 +7,12 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 前言
 ===
-通过iM激活网络抓包发现请求identity.ess.apple.com，而安徽电信湖北电信解析故障如图
+通过iM激活网络抓包发现请求identity.ess.apple.com，而安徽电信湖北电信路由追踪如图
 
 <img width="500" alt="合肥电信" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/4a129bf6-75b5-477f-94d4-0d1828712a12"><img width="500" alt="武汉电信" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/18aac24f-d039-4e1d-b6a8-4e680efaf41c">
 
 
-再附一个安徽联通解析，谁的问题显而易见
+再附一个安徽联通路由追踪，谁的问题显而易见
 
 <img width="500" alt="芜湖联通" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/55ea2ab5-f283-4b1f-aa53-ac2fd09ec7da">
 
@@ -55,7 +55,9 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 **query.ess.apple.com**    猜测是Apple的ESS服务下的查询服务，网络抓包发现在请求这个地址，并且安徽电信解析异常
 
-**rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH服务 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com 222-courier.push.apple.com等，需要注意这里的写法与前面两条不同，使用Domain-KEYWORD,即匹配域名关键词，具体请看截图内容，如果图省事与前面两条写法相同使用Domain-SUFFIX直接填push.apple.com也可以，效果相同，但会将Apple其他push服务也列入规则代理，如api.push.apple.com，所以截图写法更为精确，但列入也不一定是坏事，这个看个人选择。
+**rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH服务 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com等，需要注意这里的写法与前面两条不同，使用Domain-KEYWORD,即匹配域名关键词，具体请看截图内容，如果图省事与前面两条写法相同使用Domain-SUFFIX直接填push.apple.com也可以，效果相同，但会将Apple其他push服务也列入规则代理，如api.push.apple.com，gateway.push.apple.com等，所以截图写法更为精确，但列入也不一定是坏事，这个看个人选择。
+**如果对这些不太了解请严格按照上方截图填写并核对。**
+
 
 <br> 
 
