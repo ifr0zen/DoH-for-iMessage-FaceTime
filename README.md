@@ -86,7 +86,7 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 <br> 
 <br> 
-3.重启iOS设备，🚀打开连接，由于第2步添加规则，全局路由选择“配置”
+3.重启iOS设备，🚀打开连接，由于第2步添加规则，全局路由选择“配置”【未操作第一步不用重启】
 
 
 <br>
@@ -144,7 +144,8 @@ Mac
 
 <br> 
 <br> 
-3.重启Mac即可恢复iMessage多设备同步
+3.重启Mac即可恢复iMessage多设备同步【未操作第一步不用重启】
+
 
 <br> 
 <img width="450" alt="QQ20240623-202156@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/1d26222e-343b-422b-b45b-280a4d14e56f">
