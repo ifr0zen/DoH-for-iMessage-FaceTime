@@ -154,7 +154,7 @@ Mac
 <br> 
 
 
-4.注意⚠️ iPhone收到短信后向Mac转发出现延迟现象请做如下操作
+4.注意⚠️ 如iPhone向Mac转发短信出现延迟现象请做如下操作或在iPhone上安装描述文件
 
 <img width="200" alt="QQ20240623-203942@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b73f76d3-97b6-4b80-b461-dbb066a8f7ef"><img width="200" alt="QQ20240623-204002@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/8f311738-9559-4d73-9a6e-6db71c9cdeff"><img width="200" alt="QQ20240623-204031@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/d38a6146-8385-43e3-ab7a-d8c9d61f4d9b">
 
