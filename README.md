@@ -3,6 +3,13 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 本项目参考encrypted-dns https://github.com/paulmillr/encrypted-dns
 
+更新
+===
+6月24日安徽电信已恢复正常路由，湖北电信问题依旧
+
+安徽电信用户可移除描述文件(若安装)，VPN中删除相应规则
+
+湖北电信用户仍可参考该方法
 
 
 前言
