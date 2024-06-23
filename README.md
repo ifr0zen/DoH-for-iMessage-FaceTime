@@ -37,7 +37,7 @@ iPhone&iPad
 1.~~下载描述文件安装~~ 可先略过
 
 
-https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
+~~https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig~~
 <br> 
 <br> 
 2.iOS 打开Shadowrocket 配置--本地文件 xxx.conf【编辑当前使用的conf文件，至少是default.conf】--i--规则--添加 参考图示将激活FT和iM所需的网络请求加入规则中
