@@ -30,9 +30,12 @@ pod2g(上古iOS越狱大佬)和gg关于iMessage中间人攻击报告中有介绍
 
 
 
-方法
-===
-1.下载描述文件安装
+
+iPhone&iPad
+---
+
+1.~~下载描述文件安装~~ 可先略过
+
 
 https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
 <br> 
@@ -114,11 +117,12 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 
 
-如需多设备同步需在其他设备进行相同操作，如Mac
+Mac
 ---
 <br> 
 
-1.安装描述文件
+1.~~安装描述文件~~ 可先略过
+
 
 
 <img width="500" alt="QQ20240610-141324@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/029e82f8-706d-4358-a0bd-239e2f89c319">
@@ -143,7 +147,23 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 3.重启Mac即可恢复iMessage多设备同步
 
 <br> 
-<img width="500" alt="QQ20240610-142413@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/d42939f2-0670-4660-aae6-be92198fb5f1">
+<img width="450" alt="QQ20240623-202156@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/1d26222e-343b-422b-b45b-280a4d14e56f">
+<img width="400" alt="QQ20240623-203239@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/59d788a9-386b-4b66-8aa0-366a4cb4d3b4">
+<br> 
+<br> 
+
+
+4.注意⚠️ iPhone收到短信后向Mac转发出现延迟现象请做如下操作
+
+<img width="200" alt="QQ20240623-203942@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b73f76d3-97b6-4b80-b461-dbb066a8f7ef"><img width="200" alt="QQ20240623-204002@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/8f311738-9559-4d73-9a6e-6db71c9cdeff"><img width="200" alt="QQ20240623-204031@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/d38a6146-8385-43e3-ab7a-d8c9d61f4d9b">
+
+
+
+
+
+
+
+
 
 进阶
 ===
@@ -151,4 +171,4 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 先挖个坑吧，后面看能不能填上。
 
-思路是通过App特性实现DoH，但是实测效果不是特别好，收益不大。
+6月23日已完成✅
