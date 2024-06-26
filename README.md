@@ -41,10 +41,12 @@ pod2g(上古iOS越狱大佬)和gg关于iMessage中间人攻击报告中有介绍
 iPhone&iPad
 ---
 
-1.~~下载描述文件安装~~ 可先略过
+1.下载描述文件安装
 
 
-~~https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig~~
+
+https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
+
 <br> 
 <br> 
 2.iOS 打开Shadowrocket 配置--本地文件 xxx.conf【编辑当前使用的conf文件，至少是default.conf】--i--规则--添加 参考图示将激活FT和iM所需的网络请求加入规则中
@@ -93,7 +95,8 @@ iPhone&iPad
 
 <br> 
 <br> 
-3.重启iOS设备，🚀打开连接，由于第2步添加规则，全局路由选择“配置”【未操作第一步不用重启】
+3.重启iOS设备，🚀打开连接，由于第2步添加规则，全局路由选择“配置”
+
 
 
 <br>
@@ -128,7 +131,8 @@ Mac
 ---
 <br> 
 
-1.~~安装描述文件~~ 可先略过
+1.安装描述文件 
+
 
 
 
@@ -151,7 +155,7 @@ Mac
 
 <br> 
 <br> 
-3.重启Mac即可恢复iMessage多设备同步【未操作第一步不用重启】
+3.重启Mac即可恢复iMessage多设备同步
 
 
 <br> 
@@ -173,10 +177,4 @@ Mac
 
 
 
-进阶
-===
-经过以上操作电信用户应该成功激活iM和FT，Apple设备也恢复互联互通，若想移除描述文件可参考以下方法。
 
-先挖个坑吧，后面看能不能填上。
-
-6月23日已完成✅
