@@ -5,11 +5,11 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 更新
 ===
-6月24日安徽电信已恢复正常路由，湖北电信问题依旧
+6月24日安徽电信已恢复正常路由，6月27日湖北电信也恢复正常路由
 
-安徽电信用户可移除描述文件(若安装)，VPN中删除相应规则
+安徽电信、湖北电信用户可移除描述文件(若安装)，VPN中删除相应规则
 
-湖北电信用户仍可参考该方法
+
 
 
 前言
@@ -63,11 +63,11 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 
 
-**identity.ess.apple.com**    猜测是Apple的ESS服务下的身份验证，安徽电信解析异常，这个地址非常重要，似乎关系到iM登录和同账号下多设备互联互通
+**identity.ess.apple.com**    猜测是Apple的ESS服务下的身份验证，安徽电信路由追踪异常，这个地址非常重要，似乎关系到iM登录和同账号下多设备连续互通
 
-**query.ess.apple.com**    猜测是Apple的ESS服务下的查询服务，网络抓包发现在请求这个地址，并且安徽电信解析异常
+**query.ess.apple.com**    猜测是Apple的ESS服务下的查询服务，网络抓包发现在请求这个地址，并且安徽电信路由追踪异常
 
-**rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH服务 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com等，需要注意这里的写法与前面两条不同，使用Domain-KEYWORD,即匹配域名关键词，具体请看截图内容，如果图省事与前面两条写法相同使用Domain-SUFFIX直接填push.apple.com也可以，效果相同，但会将Apple其他push服务也列入规则代理，如api.push.apple.com，gateway.push.apple.com等，所以截图写法更为精确，但列入也不一定是坏事，这个看个人选择。
+**rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH服务，属于APNs 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com等，需要注意这里的写法与前面两条不同，使用Domain-KEYWORD,即匹配域名关键词，具体请看截图内容，如果图省事与前面两条写法相同使用Domain-SUFFIX直接填push.apple.com也可以，效果相同，但会将Apple其他push服务也列入规则代理，如api.push.apple.com，gateway.push.apple.com等，所以截图写法更为精确，但列入也不一定是坏事，这个看个人选择。
 
 **如果对这些不太了解请严格按照上方截图填写并核对。**
 
@@ -81,7 +81,7 @@ https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/ali
 
 
 
-以下是通过相关资料大致得出iMessage工作流程，个人理解仅供参考，如有错误烦请指出。
+以下是通过相关资料大致得出iMessage工作流程，个人理解仅供参考，如有错误烦请指正。
 --
 
 首先iM基于Apple的一项服务，称之为ESS Servers，该服务用于存储iMessage用户的所有公共加密密钥，并且从IP地址上看似乎位于库比提诺的Apple Park。iM登录的时候会先完成身份验证identity.ess.apple.com
