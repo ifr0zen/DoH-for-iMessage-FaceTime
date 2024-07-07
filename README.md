@@ -77,7 +77,7 @@ iPhone&iPad
 
 **rand(0,255)-courier.push.apple.com**    资料解释为iMessage使用的PUSH服务，属于APNs 注：rand(0,255)为0~255随机数，具体如0-courier.push.apple.com  11-courier.push.apple.com等，需要注意这里的写法与前面两条不同，使用Domain-KEYWORD,即匹配域名关键词，具体请看截图内容，如果图省事与前面两条写法相同使用Domain-SUFFIX直接填push.apple.com也可以，效果相同，但会将Apple其他push服务也列入规则代理，如api.push.apple.com，gateway.push.apple.com等，所以截图写法更为精确，但列入也不一定是坏事，这个看个人选择。
 
-**如果对这些不太了解请严格按照上方截图填写并核对。**
+**如果对这些不太了解请严格按照上方截图填写并核对。7月7日安徽电信暂时没有封PUSH，保证identity和query在规则中即可**
 
 
 <br> 
