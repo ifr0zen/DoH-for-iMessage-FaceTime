@@ -9,6 +9,14 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 安徽电信、湖北电信用户可移除描述文件(若安装)，VPN中删除相应规则
 
+.
+
+.
+
+.
+
+7月7日安徽电信再次屏蔽路由...DoH描述文件可以尝试不安装，目前仅发现iPhone向Mac转发iMessage受影响
+
 
 
 
@@ -41,11 +49,11 @@ pod2g(上古iOS越狱大佬)和gg关于iMessage中间人攻击报告中有介绍
 iPhone&iPad
 ---
 
-1.下载描述文件安装
+1.下载描述文件安装【可先跳过这步】
 
 
 
-https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig
+~~https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/releases/download/0.0.1/alibaba-https.mobileconfig~~
 
 <br> 
 <br> 
@@ -131,7 +139,7 @@ Mac
 ---
 <br> 
 
-1.安装描述文件 
+1.安装描述文件【可先跳过这步】
 
 
 
