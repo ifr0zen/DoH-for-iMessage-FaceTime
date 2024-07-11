@@ -15,7 +15,9 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 .
 
-7月7日安徽电信再次屏蔽路由...DoH描述文件可以尝试不安装，目前仅发现iPhone向Mac转发iMessage受影响
+7月7日合肥及其他部分地市电信再次屏蔽路由...DoH描述文件可以尝试不安装，目前仅发现iPhone向Mac转发iMessage受影响
+
+7月11日合肥电信恢复
 
 
 
