@@ -7,7 +7,7 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 ===
 中国电信App自助开通国际长途和漫游
 
-<img width="200" alt="QQ20240726-150805@2x" src="https://github.com/user-attachments/assets/0478aee5-3f70-47ac-9afc-2f82fabdc0c9"><img width="200" alt="QQ20240726-150841@2x" src="https://github.com/user-attachments/assets/a20656cc-9891-49e3-8b9a-a6e632dfe3e7"><img width="200" alt="QQ20240726-150946@2x" src="https://github.com/user-attachments/assets/1de1a6df-3c0f-4c05-8192-8e4cad416381">
+<img width="200" alt="QQ20240726-150805@2x" src="https://github.com/user-attachments/assets/0478aee5-3f70-47ac-9afc-2f82fabdc0c9">  <img width="200" alt="QQ20240726-150841@2x" src="https://github.com/user-attachments/assets/a20656cc-9891-49e3-8b9a-a6e632dfe3e7">  <img width="200" alt="QQ20240726-150946@2x" src="https://github.com/user-attachments/assets/1de1a6df-3c0f-4c05-8192-8e4cad416381">
 
 向10001发送KTGJDX开通国际短信业务
 
@@ -78,7 +78,7 @@ iPhone&iPad
 <br> 
 
 
-<img width="200" alt="QQ20240619-130317@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ad60645b-39a5-4e5b-b4be-9b450c179bbe"><img width="200" alt="QQ20240612-202605@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b3e69214-fca1-452b-be6c-4ddf5589c57f"><img width="200" alt="QQ20240612-202628@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ac7e60f6-9dcd-4cae-a694-13b8cddddd52"><img width="200" alt="QQ20240612-202704@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/85725008-5ddf-497b-ac87-43d96fd6547c"><img width="200" alt="QQ20240619-130358@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/8cfa7acb-86a7-4151-8d2e-1e463199a321"><img width="200" alt="QQ20240619-130425@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/f41bfc75-8e0e-417a-80b9-68b3f8c18596"><img width="200" alt="QQ20240619-130451@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/7596e7be-5ebc-4ed4-af99-9efe4201c3ec"><img width="200" alt="QQ20240619-130302@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/02b4f6de-72db-440e-b153-32110882495d">
+<img width="200" alt="QQ20240619-130317@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ad60645b-39a5-4e5b-b4be-9b450c179bbe">  <img width="200" alt="QQ20240612-202605@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/b3e69214-fca1-452b-be6c-4ddf5589c57f">  <img width="200" alt="QQ20240612-202628@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/ac7e60f6-9dcd-4cae-a694-13b8cddddd52">  <img width="200" alt="QQ20240612-202704@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/85725008-5ddf-497b-ac87-43d96fd6547c">  <img width="200" alt="QQ20240619-130358@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/8cfa7acb-86a7-4151-8d2e-1e463199a321">  <img width="200" alt="QQ20240619-130425@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/f41bfc75-8e0e-417a-80b9-68b3f8c18596">  <img width="200" alt="QQ20240619-130451@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/7596e7be-5ebc-4ed4-af99-9efe4201c3ec">  <img width="200" alt="QQ20240619-130302@2x" src="https://github.com/ifr0zen/DoH-for-iMessage-FaceTime/assets/17274321/02b4f6de-72db-440e-b153-32110882495d">
 
 
 
