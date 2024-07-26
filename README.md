@@ -3,6 +3,19 @@ DNS over HTTPS config profiles for iOS &amp; macOS
 
 本项目参考encrypted-dns https://github.com/paulmillr/encrypted-dns
 
+准备工作
+===
+中国电信App自助开通国际长途和漫游
+
+<img width="200" alt="QQ20240726-150805@2x" src="https://github.com/user-attachments/assets/0478aee5-3f70-47ac-9afc-2f82fabdc0c9"><img width="200" alt="QQ20240726-150841@2x" src="https://github.com/user-attachments/assets/a20656cc-9891-49e3-8b9a-a6e632dfe3e7"><img width="200" alt="QQ20240726-150946@2x" src="https://github.com/user-attachments/assets/1de1a6df-3c0f-4c05-8192-8e4cad416381">
+
+向10001发送KTGJDX开通国际短信业务
+
+<img width="200" alt="QQ20240726-151016@2x" src="https://github.com/user-attachments/assets/a0e5d325-ebce-4edf-9fa8-7159fbee8142">
+
+
+
+
 更新
 ===
 6月24日安徽电信已恢复正常路由，6月27日湖北电信也恢复正常路由
